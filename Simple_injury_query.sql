@@ -1,0 +1,4 @@
+SELECT * 
+FROM INJURY t
+WHERE SEVERITY='severe'
+AND DURATION='6weeks'
