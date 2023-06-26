@@ -1,0 +1,5 @@
+SELECT IP.FNAME, IP.LNAME, COUNT(*) AS Total_Injuries
+FROM Injuriesplayersinformation IP
+WHERE IP.GENDER = 'Male'
+GROUP BY IP.FNAME? IP.LNAME
+HAVING COUNT(*) = 4
